@@ -18,5 +18,5 @@ public class Destination {
 	private long id;
 	private long longitude;
 	private long latitude;
-//hjezcfyvzeycvsdyvcdsvyc
+
 }
