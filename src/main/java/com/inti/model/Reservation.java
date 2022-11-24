@@ -26,4 +26,8 @@ public class Reservation {
 	@ManyToOne(cascade = CascadeType.ALL)
 	@JoinColumn(name = "idVoyageur")
 	private Voyageur voyageur;
+	
+	@ManyToOne(cascade = CascadeType.ALL)
+	@JoinColumn(name = "idHotel")
+	private Hotel hotel;
 }
