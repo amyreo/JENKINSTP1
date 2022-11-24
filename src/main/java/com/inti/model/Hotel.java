@@ -35,4 +35,7 @@ public class Hotel {
 	@OneToMany (cascade = CascadeType.ALL, mappedBy = "hotel")
 	private List<Avis> listeAvis;
 	
+	@OneToMany (cascade = CascadeType.ALL, mappedBy = "hotel")
+	private List<Reservation> listeReservation;
+	
 }
