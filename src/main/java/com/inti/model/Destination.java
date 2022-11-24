@@ -22,7 +22,7 @@ public class Destination {
 	private long idHotel;
 	private long longitude;
 	private long latitude;
-	
+  
 	@OneToMany (cascade = CascadeType.ALL, mappedBy = "Hotel")
 	private List<Hotel> listeHotel;
 
